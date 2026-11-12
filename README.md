@@ -1,3 +1,8 @@
 # primeiraBiblioteca-alura
-nodejs-libUm projeto em Node.js configurado como módulo ES ("type": "module"). Esta base está preparada para a criação de ferramentas de linha de comandos (CLI) ou bibliotecas em JavaScript.   DependênciasO projeto está configurado com as seguintes bibliotecas:   Chalk (^5.3.0): Utilizado para a formatação e estilização de texto no terminal.   Commander (^12.0.0): Utilizado para a construção de interfaces de linha de comandos de forma simplificada.   Pré-requisitosNode.js: É recomendada a versão 18 ou superior para garantir a compatibilidade com a versão instalada do commander.   InstalaçãoPara configurar o projeto localmente, instale as dependências definidas no ficheiro package.json:   Bashnpm install
-Isto irá gerar o ficheiro package-lock.json e a pasta node_modules, que já se encontra devidamente ignorada pelo sistema de controlo de versões através do ficheiro .gitignore.   UtilizaçãoO ponto de entrada do projeto está definido para o ficheiro index.js. Para iniciar a aplicação, utilize:   Bashnode index.js
+nodejs-libUm projeto em Node.js configurado como módulo ES ("type": "module"). Esta base está preparada para a criação de ferramentas de linha de comandos (CLI) ou bibliotecas em JavaScript. 
+
+DependênciasO projeto está configurado com as seguintes bibliotecas:   Chalk (^5.3.0): Utilizado para a formatação e estilização de texto no terminal.   Commander (^12.0.0): Utilizado para a construção de interfaces de linha de comandos de forma simplificada.   Pré-requisitosNode.js: É recomendada a versão 18 ou superior para garantir a compatibilidade com a versão instalada do commander.  
+
+InstalaçãoPara configurar o projeto localmente, instale as dependências definidas no ficheiro package.json:   Bashnpm install
+Isto irá gerar o ficheiro package-lock.json e a pasta node_modules, que já se encontra devidamente ignorada pelo sistema de controlo de versões através do ficheiro .gitignore.   UtilizaçãoO ponto de entrada do projeto está definido para o ficheiro index.js. 
+Para iniciar a aplicação, utilize:   Bashnode index.js
